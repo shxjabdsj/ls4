@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Box{
+    background-color: #995d85;
+    border: 1px solid #000;
+    height: 240px;
+    width: 240px;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    gap: 8px;
+
+}
+
+.Child{
+    background-color: #F7941F;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 8px;
+
+}
+
+.Parent{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 67px;
+    column-gap: 40px;
+    justify-content: center;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.box2{
+    flex-direction: column;
+}
+
+.box3{
+    flex-wrap: wrap;
+}
+
+.box4{
+    justify-content: space-between;
+}
+
+.box6{
+    justify-content: right;
+}
+
+.box7{
+    justify-content: center;
+}
+
+.box8{
+    justify-content: space-between;
+}
+
+.box10{
+    align-items: end;
+}
+
+.box11{
+    align-items: center;
+}
+
+.box12{
+    justify-content: space-around;
+}
